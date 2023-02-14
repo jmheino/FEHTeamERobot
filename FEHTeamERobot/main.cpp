@@ -1,9 +1,13 @@
-#include <FEHLCD.h>
-#include "Functions/test.h"
+//Include Libraries Here
+#include "include/constants.h"
+#include "include/functions.h"
+
 
 int main(void)
 {
-    LCD.Clear(BLACK);
-    LCD.WriteLine("Hello, World!");
-	return 0;
+   
+    robotCode();
+
+    return 0;
+    
 }
