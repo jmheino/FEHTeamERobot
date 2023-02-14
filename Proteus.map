@@ -361,8 +361,8 @@ Discarded input sections
                 0x00000000       0xa8 Drivers/mcg.o
  .debug_macinfo
                 0x00000000    0x63f62 Drivers/mcg.o
- .debug_line    0x00000000      0x8c7 Drivers/mcg.o
- .debug_str     0x00000000      0x68c Drivers/mcg.o
+ .debug_line    0x00000000      0x933 Drivers/mcg.o
+ .debug_str     0x00000000      0x67e Drivers/mcg.o
  .comment       0x00000000       0x4a Drivers/mcg.o
  .debug_frame   0x00000000      0x2b4 Drivers/mcg.o
  .ARM.attributes
@@ -3964,6 +3964,7 @@ LOAD linker stubs
  .comment       0x00000049       0x4a Libraries/FEHSD.o
  .comment       0x00000049       0x4a Libraries/FEHRandom.o
 
+<<<<<<< HEAD:FEHTeamERobot/Proteus.map
 .debug_info     0x00000000    0x1361e
  .debug_info    0x00000000      0x375 ../main.o
  .debug_info    0x00000375     0x2e5b Startup/startup_mk60d10.o
@@ -3987,6 +3988,32 @@ LOAD linker stubs
  .debug_info    0x0000eea3     0x1f81 Libraries/FEHRPS.o
  .debug_info    0x00010e24     0x1cb9 Libraries/FEHSD.o
  .debug_info    0x00012add      0xb41 Libraries/FEHRandom.o
+=======
+.debug_info     0x00000000    0x17f19
+ .debug_info    0x00000000     0x35e8 ../main.o
+ .debug_info    0x000035e8     0x2e5c Startup/startup_mk60d10.o
+ .debug_info    0x00006444      0x363 Libraries/FEHMotor.o
+ .debug_info    0x000067a7      0x2d7 Drivers/i2c.o
+ .debug_info    0x00006a7e      0x74c Drivers/spi.o
+ .debug_info    0x000071ca      0x60f Drivers/uart.o
+ .debug_info    0x000077d9     0x1d82 Drivers/ff.o
+ .debug_info    0x0000955b      0xfde Drivers/SDHC.o
+ .debug_info    0x0000a539      0x33b Drivers/lptmr.o
+ .debug_info    0x0000a874      0x1f1 FEHProteus.o
+ .debug_info    0x0000aa65      0x7b3 Drivers/FEHPropeller.o
+ .debug_info    0x0000b218      0x38c Libraries/FEHUtility.o
+ .debug_info    0x0000b5a4     0x1dc1 Libraries/FEHIO.o
+ .debug_info    0x0000d365      0x51d Drivers/adc16.o
+ .debug_info    0x0000d882      0xa98 Libraries/FEHBuzzer.o
+ .debug_info    0x0000e31a     0x1687 Libraries/FEHServo.o
+ .debug_info    0x0000f9a1     0x2bcb Libraries/FEHLCD.o
+ .debug_info    0x0001256c      0x2cc Libraries/FEHAccel.o
+ .debug_info    0x00012838      0x413 Libraries/FEHBattery.o
+ .debug_info    0x00012c4b      0xb53 Drivers/FEHXBee.o
+ .debug_info    0x0001379e     0x1f81 Libraries/FEHRPS.o
+ .debug_info    0x0001571f     0x1cb9 Libraries/FEHSD.o
+ .debug_info    0x000173d8      0xb41 Libraries/FEHRandom.o
+>>>>>>> 0e6027ad21dee774cfb8157b9983588a2b5390c7:Proteus.map
 
 .debug_abbrev   0x00000000     0x328c
  .debug_abbrev  0x00000000      0x12d ../main.o
@@ -4082,10 +4109,15 @@ LOAD linker stubs
  .debug_aranges
                 0x00000e50       0x30 Libraries/FEHRandom.o
 
+<<<<<<< HEAD:FEHTeamERobot/Proteus.map
 .debug_macinfo  0x00000000   0x85d7a1
+=======
+.debug_macinfo  0x00000000   0x8c8d49
+>>>>>>> 0e6027ad21dee774cfb8157b9983588a2b5390c7:Proteus.map
  .debug_macinfo
                 0x00000000    0x652ef ../main.o
  .debug_macinfo
+<<<<<<< HEAD:FEHTeamERobot/Proteus.map
                 0x000652ef    0x6bf52 Startup/startup_mk60d10.o
  .debug_macinfo
                 0x000d1241    0x63f77 Libraries/FEHMotor.o
@@ -4197,6 +4229,124 @@ LOAD linker stubs
                                0x12c3 (size before relaxing)
  .debug_str     0x00004f84       0x36 Libraries/FEHRandom.o
                                 0x4a7 (size before relaxing)
+=======
+                0x0006b534    0x6bf3b Startup/startup_mk60d10.o
+ .debug_macinfo
+                0x000d746f    0x63f77 Libraries/FEHMotor.o
+ .debug_macinfo
+                0x0013b3e6    0x64058 Drivers/i2c.o
+ .debug_macinfo
+                0x0019f43e    0x63ef1 Drivers/spi.o
+ .debug_macinfo
+                0x0020332f    0x63ee2 Drivers/uart.o
+ .debug_macinfo
+                0x00267211     0x44f5 Drivers/ff.o
+ .debug_macinfo
+                0x0026b706    0x65446 Drivers/SDHC.o
+ .debug_macinfo
+                0x002d0b4c    0x63f51 Drivers/lptmr.o
+ .debug_macinfo
+                0x00334a9d    0x63ef7 FEHProteus.o
+ .debug_macinfo
+                0x00398994    0x63fa0 Drivers/FEHPropeller.o
+ .debug_macinfo
+                0x003fc934    0x63f0c Libraries/FEHUtility.o
+ .debug_macinfo
+                0x00460840    0x645b0 Libraries/FEHIO.o
+ .debug_macinfo
+                0x004c4df0    0x64593 Drivers/adc16.o
+ .debug_macinfo
+                0x00529383    0x63f39 Libraries/FEHBuzzer.o
+ .debug_macinfo
+                0x0058d2bc    0x65391 Libraries/FEHServo.o
+ .debug_macinfo
+                0x005f264d    0x69483 Libraries/FEHLCD.o
+ .debug_macinfo
+                0x0065bad0    0x64087 Libraries/FEHAccel.o
+ .debug_macinfo
+                0x006bfb57    0x645ba Libraries/FEHBattery.o
+ .debug_macinfo
+                0x00724111    0x64c78 Drivers/FEHXBee.o
+ .debug_macinfo
+                0x00788d89    0x6a087 Libraries/FEHRPS.o
+ .debug_macinfo
+                0x007f2e10    0x6c7b0 Libraries/FEHSD.o
+ .debug_macinfo
+                0x0085f5c0    0x69789 Libraries/FEHRandom.o
+
+.debug_line     0x00000000     0xb9f6
+ .debug_line    0x00000000     0x10aa ../main.o
+ .debug_line    0x000010aa     0x1006 Startup/startup_mk60d10.o
+ .debug_line    0x000020b0      0x32d Libraries/FEHMotor.o
+ .debug_line    0x000023dd      0x358 Drivers/i2c.o
+ .debug_line    0x00002735      0x3a5 Drivers/spi.o
+ .debug_line    0x00002ada      0x304 Drivers/uart.o
+ .debug_line    0x00002dde     0x1d76 Drivers/ff.o
+ .debug_line    0x00004b54      0xe07 Drivers/SDHC.o
+ .debug_line    0x0000595b      0x269 Drivers/lptmr.o
+ .debug_line    0x00005bc4      0x278 FEHProteus.o
+ .debug_line    0x00005e3c      0x31f Drivers/FEHPropeller.o
+ .debug_line    0x0000615b      0x38e Libraries/FEHUtility.o
+ .debug_line    0x000064e9      0xd02 Libraries/FEHIO.o
+ .debug_line    0x000071eb      0x392 Drivers/adc16.o
+ .debug_line    0x0000757d      0x3cc Libraries/FEHBuzzer.o
+ .debug_line    0x00007949      0x724 Libraries/FEHServo.o
+ .debug_line    0x0000806d     0x1796 Libraries/FEHLCD.o
+ .debug_line    0x00009803      0x369 Libraries/FEHAccel.o
+ .debug_line    0x00009b6c      0x2c1 Libraries/FEHBattery.o
+ .debug_line    0x00009e2d      0x496 Drivers/FEHXBee.o
+ .debug_line    0x0000a2c3      0x9e9 Libraries/FEHRPS.o
+ .debug_line    0x0000acac      0x808 Libraries/FEHSD.o
+ .debug_line    0x0000b4b4      0x542 Libraries/FEHRandom.o
+
+.debug_str      0x00000000     0x581f
+ .debug_str     0x00000000     0x200f ../main.o
+                               0x2138 (size before relaxing)
+ .debug_str     0x0000200f      0xfb2 Startup/startup_mk60d10.o
+                               0x202b (size before relaxing)
+ .debug_str     0x00002fc1       0x52 Libraries/FEHMotor.o
+                                0x3da (size before relaxing)
+ .debug_str     0x00003013      0x14e Drivers/i2c.o
+                                0x2ef (size before relaxing)
+ .debug_str     0x00003161      0x18b Drivers/spi.o
+                                0x47d (size before relaxing)
+ .debug_str     0x000032ec      0x188 Drivers/uart.o
+                                0x40a (size before relaxing)
+ .debug_str     0x00003474      0x618 Drivers/ff.o
+                                0x8cd (size before relaxing)
+ .debug_str     0x00003a8c      0x54b Drivers/SDHC.o
+                                0x8eb (size before relaxing)
+ .debug_str     0x00003fd7       0x5a Drivers/lptmr.o
+                                0x2cb (size before relaxing)
+ .debug_str     0x00004031       0x6c FEHProteus.o
+                                0x310 (size before relaxing)
+ .debug_str     0x0000409d       0x3b Drivers/FEHPropeller.o
+                                0x47c (size before relaxing)
+ .debug_str     0x000040d8       0xc0 Libraries/FEHUtility.o
+                                0x29c (size before relaxing)
+ .debug_str     0x00004198      0xdaf Libraries/FEHIO.o
+                               0x16a3 (size before relaxing)
+ .debug_str     0x00004f47       0xd7 Drivers/adc16.o
+                                0x35f (size before relaxing)
+ .debug_str     0x0000501e       0x8b Libraries/FEHBuzzer.o
+                                0x47f (size before relaxing)
+ .debug_str     0x000050a9       0xc9 Libraries/FEHServo.o
+                               0x12ad (size before relaxing)
+ .debug_str     0x00005172      0x201 Libraries/FEHLCD.o
+                               0x1115 (size before relaxing)
+ .debug_str     0x00005373       0x3d Libraries/FEHAccel.o
+                                0x28d (size before relaxing)
+ .debug_str     0x000053b0       0x54 Libraries/FEHBattery.o
+                                0x494 (size before relaxing)
+ .debug_str     0x00005404      0x128 Drivers/FEHXBee.o
+                                0x63a (size before relaxing)
+ .debug_str     0x0000552c      0x202 Libraries/FEHRPS.o
+                               0x1910 (size before relaxing)
+ .debug_str     0x0000572e       0xbb Libraries/FEHSD.o
+                               0x12c2 (size before relaxing)
+ .debug_str     0x000057e9       0x36 Libraries/FEHRandom.o
+                                0x499 (size before relaxing)
+>>>>>>> 0e6027ad21dee774cfb8157b9983588a2b5390c7:Proteus.map
 
 .debug_frame    0x00000000     0x3ee4
  .debug_frame   0x00000000       0x38 ../main.o
