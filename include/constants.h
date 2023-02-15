@@ -11,7 +11,7 @@
 
 
 //Calculations for distance
-#define WHEEL_DIAM 2.5 // inches (including treads)
+#define WHEEL_DIAM 2.75 // inches (including treads)
 #define WHEEL_CIRC (WHEEL_DIAM * PI)
 
 

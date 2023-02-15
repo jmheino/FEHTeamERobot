@@ -4,4 +4,7 @@
 //Main robot code function
 void robotCode();
 
+//Initialization of the robot
+void initRobot();
+
 #endif
